@@ -4,7 +4,7 @@ Partitioned Global Address Space
 ------------------------------------------------------------------------------
 ------------------------------------------------------------------------------
 
-The idea behind this partitioned global address space (PGAS) project comes courtesy of Dr. Ralph Butler, who I studied under while attending MTSU. My contributions are the library implementation provided in the pgas.c and pgas.h files, as well as the makefile to link the libraries and compile a test program. Credit for the demo / test files go to him.
+All credit for this (PGAS) project belongs to Dr. Ralph Butler, who I studied under while attending MTSU. My contributions are the library implementation provided in the pgas.c and pgas.h files, as well as the makefile to link the libraries and compile a test program. Credit for the demo / test files go to him - this was a classroom "fill in the blanks" project. If you're a current student - please don't lift this implementation : )
 
 This library is meant to be run on a cluster using MPI. As such, you'll need MPI configured, and you'll need to provide a file enumerating the host servers.
 
